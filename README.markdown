@@ -25,11 +25,11 @@ Oh My Zsh is installed by running one of the following commands in your terminal
 
 #### via curl
 
-`curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh`
+`curl -L https://raw.github.com/tractorpulledpork/oh-my-zsh/master/tools/install.sh | sh`
 
 #### via wget
 
-`wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O - | sh`
+`wget https://raw.github.com/tractorpulledpork/oh-my-zsh/master/tools/install.sh -O - | sh`
 
 ## Using Oh My Zsh
 
@@ -81,13 +81,13 @@ The default location is `~/.oh-my-zsh` (hidden in your home directory)
 
 If you'd like to change the install directory with the `ZSH` environment variable, either by running `export ZSH=/your/path` before installing, or by setting it before the end of the install pipeline like this:
 
-`curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | ZSH=~/.dotfiles/zsh sh`
+`curl -L https://raw.github.com/tractorpulledpork/oh-my-zsh/master/tools/install.sh | ZSH=~/.dotfiles/zsh sh`
 
 #### Manual Installation
 
 ##### 1. Clone the repository:
 
-`git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh`
+`git clone git://github.com/tractorpulledpork/oh-my-zsh.git ~/.oh-my-zsh`
 
 ##### 2. *Optionally*, backup your existing @~/.zshrc@ file:
 
